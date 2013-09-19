@@ -1,0 +1,23 @@
+# The only thing we might want to track are sites directories,
+# everything else will be fetched by our make file.
+htdocs/*.php
+htdocs/*.txt
+htdocs/*.config
+htdocs/.*
+htdocs/profiles
+htdocs/modules
+htdocs/themes
+htdocs/misc
+htdocs/includes
+htdocs/scripts
+htdocs/sites/default/default.settings.php
+htdocs/sites/all
+htdocs/sites/example.sites.php
+htdocs/sites/README.txt
+*.pyc
+
+# Ignore our checksums directory
+.checksums
+nbproject
+nbproject/*
+.idea
