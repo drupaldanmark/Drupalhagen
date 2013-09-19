@@ -1,0 +1,22 @@
+#!/bin/bash
+# This is a very simple script that can be used to build the system
+
+if [ -d htdocs ]; then
+  mv htdocs htdocs-old
+fi
+
+drush make --working-copy platform.make htdocs --no-gitinfofile
+
+if [ -d htdocs-old ]; then
+  # There was an old site so lets pull in related files from it
+  rm -rf htdocs-old/sites/all
+  mv htdocs/sites/all htdocs-old/sites/.
+  rm -rf htdocs/sites
+  mv htdocs-old/sites htdocs/sites
+  rm -rf htdocs-old
+fi
+
+if [ -d htdocs/sites/default/files ]; then
+  chmod -R 777 htdocs/sites/default/files
+fi
+
