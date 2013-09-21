@@ -14,3 +14,10 @@ projects[panopoly][download][url] = http://git.drupal.org/project/panopoly.git
 projects[panopoly][download][revision] = 158a9ca29352fd943f542a8d3dbfd4bc220fc706
 projects[panopoly][download][branch] = 7.x-1.x
 
+projects[mothership][type] = theme
+projects[mothership][version] = 2.10
+
+projects[hagen2013][type] = theme
+projects[hagen2013][download][type] = git
+projects[hagen2013][download][url] = git@github.com:drupaldanmark/hagen2013.git
+projects[hagen2013][download][branch] = master
