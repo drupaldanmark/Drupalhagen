@@ -26,3 +26,9 @@ projects[campkitlite_core][type] = module
 projects[campkitlite_core][download][type] = git
 projects[campkitlite_core][download][url] = git@github.com:drupaldanmark/campkitlite.git
 projects[campkitlite_core][download][branch] = master
+
+projects[simple_gmap][type] = module
+projects[simple_gmap][download][type] = git
+projects[simple_gmap][download][url] = http://git.drupal.org/project/simple_gmap.git
+projects[simple_gmap][download][revision] = e840cf742393fa6ef4fa
+projects[simple_gmap][download][branch] = 7.x-1.x
