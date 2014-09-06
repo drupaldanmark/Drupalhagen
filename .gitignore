@@ -1,5 +1,7 @@
 # The only thing we might want to track are sites directories,
 # everything else will be fetched by our make file.
+htdocs
+htdocs/*
 htdocs/*.php
 htdocs/*.txt
 htdocs/*.config
