@@ -8,10 +8,10 @@ core = 7.x
 projects[drupal] = 7.31
 
 ; We are using a distribution based on panopoly.
-projects[dd_core][type] = profile
-projects[dd_core][download][type] = git
-projects[dd_core][download][url] = git@github.com:drupaldanmark/dd_core.git
-projects[dd_core][download][branch] = master
+projects[dh_core][type] = profile
+projects[dh_core][download][type] = git
+projects[dh_core][download][url] = git@github.com:drupaldanmark/dh_core.git
+projects[dh_core][download][branch] = master
 
 
 
