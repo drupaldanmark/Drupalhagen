@@ -16,6 +16,7 @@ htdocs/sites/default/default.settings.php
 htdocs/sites/all
 htdocs/sites/example.sites.php
 htdocs/sites/README.txt
+cleaned
 *.pyc
 
 # Ignore our checksums directory
